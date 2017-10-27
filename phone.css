@@ -1,0 +1,379 @@
+@media screen and (max-width:1200px){
+
+        .container{
+            width: 100%px;
+        }
+        .wrapper{
+            width: 100%;
+        }
+        .wrapper-s{
+            width: 90%;
+            margin: auto;
+        }
+        .col-3{
+            width: 100%;/*calc為運算*/
+            padding: 15px;
+        }
+        .col-4{
+            width: 100%;
+            padding: 15px;
+        }
+        .col-6{
+            width: 100%;
+            padding: 15px;
+        }
+/*        *************************************************/
+       
+/*        -----------------網頁導引選項-----------------------        */
+         nav{
+            background-color:black;
+            width: 100%;
+        }
+        .menu{
+            background-color: black;
+/*            float: right;                                            */
+        }
+        .logo{
+/*            float: left;*/
+            text-align: center;
+            line-height: 120px;
+            padding-left: 60px;
+            background-color: black;
+            width: 120px;
+            height: 120px;
+            font-size: 50px;
+            color: white;
+        }
+        nav li{
+            list-style: none;
+/*            float:left;*/
+            
+        }
+        nav .menu a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding-left: 30px;
+            padding-right: 30px;
+            line-height: 120px;
+            transition:background-color 1s,color 5s ,font-size 5s;
+/*            transition: all,3s;*/
+        }
+        nav a:hover{
+            color:black;
+            background-color:white;
+        }
+        nav a:focus{
+            color:black;
+            background-color: gray;
+        }
+
+/*        -------------Header製作-------------*/
+        
+        header{
+            background-image: url(images/artur-pokusin-740.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 800px;
+            margin: auto;
+            text-align: center;
+            padding-top: 300px;
+            color: white;
+            
+        }
+/*
+        header{
+            background-image: url(images/ehmir-bautista-364387.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            height: 600px;
+            display: table;
+        }
+        header .wrapper-s{
+            display: table-cell;
+            vertical-align: middle;
+        }
+*/
+/*        ******************************************************/
+/*        --------------WORKS--------------*/
+        #works{
+            padding-top: 150px;
+            padding-bottom: 150px;
+            text-align: center;
+        }
+        #works p{
+            margin-top: 15px;
+            color: black;
+        }
+        #works h1{
+            color: black;
+        }
+
+
+/*        ****************************************************/
+/*        -------------------banner------------------------*/
+        #banner{
+            background-image: url(images/taylor-durrer-114005.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+/*        *****************************************************/
+/*-----------------------SERVICES-------------------*/
+        #service .wrapper:nth-of-type(1){
+            margin-top: 50px;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+        #service .wrapper:nth-of-type(1) p{
+            margin-top: 30px;
+        }
+        #service .wrapper:nth-of-type(3){
+            margin-bottom: 100px;
+        }
+        #service .icon{
+            text-align: center;
+        }
+        #service h3{
+            text-align: center;
+        }
+        #service p{
+            text-align: center;
+        }
+/*        *******************************************************/
+/*        ------------------WORKS2--------------------*/
+        #works2{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            text-align: center;
+        }
+        #works2 p{
+            margin-top: 15px;
+            color: white;
+        }
+        #works2 h1{
+            color: white;
+        }
+/*        ************************************************************/
+/*        --------------------ABOUT US---------------------*/
+        #about .wrapper{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        #about .pic{
+            width: 300px;
+            margin: auto;
+            
+        }
+        #about .wrapper:nth-of-type(2) h3{
+            margin-top: 30px;
+        }
+/*        **********************************************************/
+/*        -----------------------PURCHASE NOW--------------------*/
+        #purchase .button{
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-top: 50px;
+        }
+        #purchase .wrapper{
+            color: white;
+            text-align: center;
+            padding: 80px;
+        }
+/*        ***************************************************************/
+/*        ----------------------LATEST NEWS---------------------*/
+        #latest .wrapper:nth-of-type(1){
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+        #latest .pic{
+            width: 250px;
+            position: relative;
+            margin: auto;
+            
+        }
+        #latest .wrapper:nth-of-type(2) h4{
+            margin-top: 30px;
+            font-family: sans-serif;
+        }
+        #latest .wrapper:nth-of-type(2) a{
+            font-family: sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+        #latest .pic .date{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #000;
+            width: 60px;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: white;
+                
+        }
+
+/*        *********************************************************/
+/*        --------------------------Sponsor--------------------------*/
+        #sponsor {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #000;
+            color: #7b7b7b;
+            font-size: 0;
+        }
+        #sponsor .brand {
+            display: inline-block;
+            width: calc(100%/3);
+            padding: 10px;
+            font-size: 16px;
+        }
+        #sponsor .brand .fa-4x{
+            font-size: 45px;
+        }
+    
+/*        *************************************************************/
+/*        ---------------------------CONTACT---------------------------*/
+        #contact {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            
+        }
+        #contact .wrapper:nth-of-type(1){
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        #contact p:nth-of-type(1) {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        #contact .item {
+            margin-top: 45px;
+        }
+        #contact .info {
+            text-align: center;
+            width: 100%;
+        }
+        #contact .info h3 {
+            letter-spacing: 4px;
+        }
+        #contact .info li {
+            list-style: none;
+            line-height: 2em;
+            font-family: sans-serif;
+
+        }
+        #contact .info .icon {
+            width: 100%;
+/*            text-align: center;*/
+            color: #a8a8a8;
+            font-size: 40px;
+
+        }
+        #contact .info .content {
+            width: 100%;
+            color: #a8a8a8;
+            font-family: sans-serif;
+            margin-bottom: 20px;
+        }
+/*
+        #contact .wrapper:nth-of-type(1){
+            padding-bottom: 80px;
+            text-align: center;
+        }
+        #contact .wrapper:nth-of-type(2) span{
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        #contact .box{
+            margin-left: 100px;
+            height: 400px;
+            display: inline-block;
+            overflow: hidden;
+        
+        }*/
+        #contact .name{
+            width: 100%;
+            padding-left: 10px;
+            margin-bottom: 50px;
+        }
+        #contact .mail{
+            width: 100%;
+            padding-left: 10px;
+            margin-bottom: 50px;
+        }
+        #contact .message{
+            margin-top: 30px;
+            width: 100%;
+            height: 200px;
+            padding-bottom: 170px;
+            padding-left: 10px;
+            margin-bottom: 50px;
+
+        }
+        #contact .button{
+            color: white;
+            border-style: none;
+            background-color: rgba(0, 128, 89, 0.54);
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            letter-spacing: 2px;
+            border: 0;
+            
+        }
+
+/*        ****************************************************/
+/*        ----------------------OPEN THE MAP---------------------*/
+        #openmap .wrapper{
+            text-align: center;
+            margin-top: 30px;
+            padding: 30px;
+            background-color: gainsboro;
+
+        }
+        #openmap h4{
+            font-family: sans-serif;
+        }
+/*        *************************************************************/
+/*        -----------------------FOOTER---------------------------*/
+        footer{
+            background-color: black;
+            text-align: center;
+            height: 400px;
+            
+        }
+        footer h1{
+            padding-top: 100px;
+            color: white;
+        }
+        .shareicon{
+/*            width: 16px;*/
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .si{
+            padding: 20px;
+        }
+        .remark{
+            padding-top: 150px;
+            color: gray;
+        }
+/*        ****************************************************************/
+    }
